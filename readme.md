@@ -6,7 +6,7 @@
 
 ## How to Use
 
-- Go to the link ```http://wa.me/+14155238886?text=join%20dinner-way```
+- Go to the link http://wa.me/+14155238886?text=join%20dinner-way
 - Join the channel by sending this message ```join dinner-way```
 - Chat with Vaani and get answers to your questions!
 
