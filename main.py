@@ -135,7 +135,7 @@ async def get_llm_response(name:str, context: List[str]) -> str:
 @app.post("/send_message")
 def send_message_via_twilio(to: str, message: str):
     response = twilio_client.messages.create(
-        from_=TWILIO_WHATSAPP_NUMBER,
+        from_=f"whatsapp:{TWILIO_WHATSAPP_NUMBER}",
         to=f"whatsapp:{to}",
         body=message
     )
