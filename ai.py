@@ -1,9 +1,12 @@
 import requests
 import json
-
+import os
 from datetime import datetime, timedelta
 # API Endpoint and Key
-url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=<API_key>'
+
+API_KEY = os.environ.get('API_KEY')
+url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={API_KEY}"
+
 headers = {
     'Content-Type': 'application/json'
 }
